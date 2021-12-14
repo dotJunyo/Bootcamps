@@ -1,0 +1,108 @@
+/* BODY */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* CABEÇALHO */
+.cabecalho{
+    flex-basis: 20%;
+}
+.cabecalho__logo{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    
+}
+.cabecalho__logo img{
+    height: 30px;
+}
+
+.cabecalho__navegacao{
+    font-weight: 700;
+    color:#333333;
+}
+.cabecalho__menuLista{}
+.navegacao__menuItem{
+    margin-bottom: 30px;
+}
+.navegacao__menuItem img{
+    max-width: 26px;
+}
+.navegacao__menuItem a{
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+    vertical-align: top;
+}
+.navegacao__menuItem a:hover{
+    color:#1da1f2;
+}
+
+/* CONTEÚDO PRINCIPAL */
+.conteudoPrincipal{
+    flex-basis: 80%;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+.conteudoPrincipal__titulo{
+    padding: 10px 30px;
+}
+.conteudoPrincipal__caixaTweet{
+    padding: 16px 30px;
+    border-top: 1px solid #ddd;
+    border-bottom: 10px solid #ddd;
+    text-align: right;
+}
+.conteudoPrincipal__caixaTweet textarea{
+    display: block;
+    width: 100%;
+    height: 60px;
+    border:none;
+    outline: none;
+    resize: none;
+}
+.conteudoPrincipal__caixaTweet button{
+    background-color: #1da1f2;
+    border: none;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 15px;
+}
+.conteudoPrincipal__feed{}
+.conteudoPrincipal__listaTweet{
+    display: flex;
+    flex-flow: column-reverse nowrap;
+}
+.conteudoPrincipal__tweet{
+    padding: 30px 32px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: flex-start;
+}
+.tweet__imagem:hover{
+    cursor: pointer;
+}
+.tweet__conteudo{
+    margin-left: 15px;
+}
+.tweet__conteudo h2{
+    display: inline-block;
+}
+.tweet__conteudo h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.tweet__conteudo span{
+    display: inline-block;
+    color: #828282;
+}
+.tweet__conteudo p{
+    margin-top: 15px;
+    color: #333333;
+}
